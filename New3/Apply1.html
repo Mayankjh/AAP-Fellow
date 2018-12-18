@@ -67,7 +67,7 @@
 								<li><a href="gallery.html">Gallery</a></li>
 								<li class="menu-has-children"><a href="blogpage.html">Blogs</a>
 								</li>
-								
+
 								<li><div class="dropdown">
   <span><a href="#">Apply</a></span>
   <div class="dropdown-content">
@@ -75,10 +75,10 @@
 	<p><a href='Apply1.html'>Fellowships</a></p>
   </div>
 </div></li>
-  
-								
-								
-								
+
+
+
+
 								<li><a href="faq.html">FAQ's</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
 						</ul>
@@ -114,7 +114,7 @@
 			          <tbody>
 			             <tr>
 			                <td>
-			                   <form class="well form-horizontal">
+			                   <form class="well form-horizontal" action="https://formspree.io/ashishmgl9@gmail.com" method="POST">
 			                      <fieldset>
 			                         <div class="form-group">
 			                            <label class="col-md-4 control-label">Full Name</label>
@@ -160,30 +160,21 @@
 			                         </div>
 			                         <div class="form-group">
 			                            <label class="col-md-4 control-label">Country</label>
-			                            <div class="col-md-8 inputGroupContainer">
-			                               <div class="input-group">
-			                                  <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
-			                                  <select class="selectpicker form-control">
-			                                     <option>Country</option>
-			                                  </select>
-			                               </div>
+																	<div class="col-md-8 inputGroupContainer">
+			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="Country" name="Country" placeholder="Country" class="form-control" required="true" value="" type="text"></div>
 			                            </div>
 			                         </div>
 			                         <div class="form-group">
 			                            <label class="col-md-4 control-label">College/University</label>
-			                            <div class="col-md-8 inputGroupContainer">
-			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-			                              <select class="selectpicker form-control">
-			                                     <option>College/University</option>
-			                                  </select>
-			                              </div>
-			                            </div>
+																	<div class="col-md-8 inputGroupContainer">
+																		 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="College/University" name="College/University" placeholder="College/University" class="form-control" required="true" value="" type="text"></div>
+																	</div>
 			                         </div>
-			                         <div class="form-group dropdown">
-			                            <label class="col-md-4 control-label">Internship </label>
-			                            <div class="col-md-8 inputGroupContainer">
+			                         <div class="form-group">
+			                            <label class="col-md-4 control-label">Fellowship </label>
+			                            <div class="col-md-8 ">
 			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
-			                                <select class="selectpicker form-control">
+			                                <select class="selectpicker form-control" style="height:36px;">
 			                                <option>Public Policy Research </option>
 			                                <option>Media and Public Relations</option>
 			                                <option>Social Media Marketing</option>
@@ -200,11 +191,11 @@
 			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span><textarea id="sop" name="sop" placeholder="Type Here" class="form-control" required="true" value="" type="text" maxlength="250"></textarea></div>
 			                            </div>
 			                         </div>
-			                         <div class="form-group dropdown">
+			                         <div class="form-group">
 			                            <label class="col-md-4 control-label">Duration</label>
-			                            <div class="col-md-8 inputGroupContainer">
+			                            <div class="col-md-8">
 			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-dashboard"></i></span>
-			                                <select class="selectpicker form-control">
+			                                <select class="selectpicker form-control"  style="height:36px;">
 			                                <option>2 Months</option>
 			                                <option>6 Months</option>
 
@@ -225,7 +216,7 @@
 			                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="phoneNumber" name="phoneNumber" placeholder="Phone Number" class="form-control" required="true" value="" type="text"></div>
 			                            </div>
 			                         </div>
-			                         <button class="btn btn-primary pull-right">Submit</button>
+			                         <button class="btn btn-primary pull-right" type="submit" value="Send">Submit</button>
 			                      </fieldset>
 			                   </form>
 			                </td>
