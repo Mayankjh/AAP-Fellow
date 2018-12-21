@@ -283,8 +283,8 @@ $(document).ready(function() {
 
         function init() {
             var mapOptions = {
-                zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                zoom: 16,
+                center: new google.maps.LatLng(28.5542, 77.2409), // New York
                 styles: [{
                     "featureType": "water",
                     "elementType": "geometry",
@@ -405,7 +405,7 @@ $(document).ready(function() {
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(28.5444, 77.23255),
+                position: new google.maps.LatLng(28.5542, 77.2409),
                 map: map,
                 title: 'Snazzy!'
             });
